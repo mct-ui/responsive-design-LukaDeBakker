@@ -196,6 +196,10 @@ a:focus {
     flex-direction: column;
 }
 
+.o-row--neutral-x-light{
+    background-color: #F7F7F7;
+}
+
 /* size modifiers */
 
 .o-row--lg {
@@ -249,9 +253,13 @@ a:focus {
     flex-wrap: wrap;
 }
 
-    .o-layout__item {
+.o-layout__item {
         width: 100%;
     }
+.o-layout-row--reverse{
+        flex-direction: row-reverse;
+    }
+
 
 /* gutter modifiers, these affect o-layout__item too */
 
